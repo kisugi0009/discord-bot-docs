@@ -2,6 +2,19 @@
   "title": "Discord 機器人指令手冊",
   "path": "/",
   "type": "page",
-  "content": "# Discord 機器人指令手冊\n\n本文件整理所有由系統提供的管理功能，包括公告、招募、問卷、投票以及臨時文字頻道。",
-  "children": []
+  "content": "# Discord 機器人指令手冊",
+  "children": [
+    {
+      "title": "指令說明",
+      "path": "/commands",
+      "type": "folder",
+      "children": [
+        {"title": "/an 公告代發","path": "/commands/an","type": "page"},
+        {"title": "/dr 招募版發佈","path": "/commands/dr","type": "page"},
+        {"title": "/sur 問卷代發","path": "/commands/sur","type": "page"},
+        {"title": "/vote 投票代發","path": "/commands/vote","type": "page"},
+        {"title": "/room 建立臨時文字頻道","path": "/commands/room","type": "page"}
+      ]
+    }
+  ]
 }
