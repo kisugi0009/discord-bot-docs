@@ -17,12 +17,12 @@
     window.$docsify = {
       name: '冥界的朋友使用說明書',
       repo: '',
-      loadSidebar: true,
+      loadSidebar: '_sidebar.md',  <!--⭐ 強制指定 Sidebar -->
       subMaxLevel: 3
     }
   </script>
 
-  <!-- ⚠️ 使用 Cloudflare CDN（最穩定） -->
+  <!-- Cloudflare CDN：最穩定的 Docsify JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.13.1/docsify.min.js"></script>
 
 </body>
